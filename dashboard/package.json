@@ -1,0 +1,9 @@
+{
+  "name": "api-radar-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"dev": "vite --configLoader runner", "build": "tsc --noEmit && vite build --configLoader runner", "preview": "vite preview --configLoader runner"},
+  "dependencies": {"@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest"},
+  "devDependencies": {"@types/react": "latest", "@types/react-dom": "latest"}
+}
